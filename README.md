@@ -18,7 +18,8 @@ sudo apt install wget -y
 ## Installation
 To configure and install the Equito Node please run:
 ```
-sudo wget https://raw.githubusercontent.com/AntonMashnin/equito-testnet/main/equito-update.sh
-sudo chmod +x equito-update.sh
-sudo ./equito-update.sh
+mkdir ~/scripts; cd ~/scripts
+wget https://raw.githubusercontent.com/AntonMashnin/equito-testnet/main/equito-update.sh
+chmod +x equito-update.sh
+./equito-update.sh
 ```
